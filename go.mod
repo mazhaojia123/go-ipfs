@@ -113,4 +113,8 @@ require (
 	golang.org/x/sys v0.0.0-20210816183151-1e6c022a8912
 )
 
+replace github.com/ipfs/go-bitswap v0.4.0 => ../go-bitswap
+
+replace github.com/ipfs/go-ipfs-provider v0.6.1 => ../go-ipfs-provider
+
 go 1.16
